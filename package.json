@@ -1,6 +1,6 @@
 {
   "name": "@serendevity/wstl-custom-elements",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": {
     "name": "salman khattak",
     "email": "khattaksd@gmail.com"
@@ -19,7 +19,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "release" : "release-it"
+    "release": "release-it"
   },
   "devDependencies": {
     "@types/node": "^18.14.6",
@@ -27,5 +27,8 @@
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
     "vite-plugin-dts": "^2.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
