@@ -6,13 +6,13 @@
     "email": "khattaksd@gmail.com"
   },
   "type": "module",
-  "main": "./dist/my-lib.umd.cjs",
-  "module": "./dist/my-lib.js",
+  "main": "./dist/lib.umd.cjs",
+  "module": "./dist/lib.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/lib.js",
+      "require": "./dist/lib.umd.cjs"
     }
   },
   "scripts": {
