@@ -20,7 +20,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "release": "release-it",
-    "prepare": "npm run build"
+    "prepare": "pnpm run build"
   },
   "devDependencies": {
     "@types/node": "^18.14.6",

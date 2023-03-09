@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, './src/web-component-a.ts'),
-      name: 'my-lib',
-      fileName: 'my-lib',
+      name: 'lib',
+      fileName: 'lib',
     },
   },
   plugins: [dts()],
