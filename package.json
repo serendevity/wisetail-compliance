@@ -1,10 +1,15 @@
 {
-  "name": "@serendevity/wstl-custom-elements",
+  "name": "@serendevity/wisetail-compliance",
   "version": "0.0.5",
   "author": {
     "name": "salman khattak",
     "email": "khattaksd@gmail.com"
   },
+  "description": "Wisetail Compliance Charts",
+  "repository": { 
+  "type": "git", 
+  "url": "https://github.com/serendevity/wisetail-compliance" 
+}, 
   "type": "module",
   "main": "./dist/lib.umd.cjs",
   "module": "./dist/lib.js",
@@ -34,5 +39,8 @@
   },
   "files": [
     "dist/**/*"
-  ]
+  ],
+  "dependencies": {
+    "highcharts": "^10.3.3"
+  }
 }
