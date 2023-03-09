@@ -6,7 +6,7 @@ import dts from 'vite-plugin-dts';
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve(__dirname, './src/web-component-a.ts'),
+      entry: resolve(__dirname, './src/wt-compliance.ts'),
       name: 'lib',
       fileName: 'lib',
     },
