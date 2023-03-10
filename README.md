@@ -13,3 +13,8 @@ _TODO_
 2. Use Session Store for api-info {url,token,client_id}
 3. [Mono Repo](https://pnpm.io/workspaces)
 4. CI / CD Github Package
+5. Session Store tested in different apps 
+6. Attributes demo
+7. Even / listener
+8. Redux?
+
