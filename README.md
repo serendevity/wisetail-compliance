@@ -3,6 +3,9 @@
 - Vanilla JS
 - Vite
 - HighChart
+- [NPM Registry](https://www.npmjs.com/package/@serendevity/wisetail-compliance)
+
+- [JsDelivr v0.0.8](https://cdn.jsdelivr.net/npm/@serendevity/wisetail-compliance@0.0.8/dist/lib.js)
 
 _TODO_
 1. External Dependency HighChart
