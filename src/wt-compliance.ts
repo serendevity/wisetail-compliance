@@ -7,13 +7,13 @@ class WisetailCompliance extends HTMLElement {
   connectedCallback() {
     // Generate the chart
     Highcharts.chart(this, {
-      chart: { type: 'bar' },
-      title: { text: "Wisetail Compliance" },
+      title: { text: "Wisetail Developer Spread" },
       xAxis: { categories: ['LMS', 'AdminTool', 'API'] },
       yAxis: { title: { text: 'Developers' } },
       series: [{
+        name : 'Number of Developers',
         type: "line",
-        data: [1, 2, 3]
+        data: [5, 2, 4]
       }]
     });
   }
